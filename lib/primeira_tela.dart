@@ -8,13 +8,13 @@ class PrimeiraTela extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar( 
-        title: Center (child: Text('Formulário')),
+        title: const Center (child: Text('Fomulário')),
       ),
       body: Center(
         child: ElevatedButton(onPressed: (() {
-          Navigator.of(context).push(MaterialPageRoute(builder: ((_) => SegundaTela()),
+          Navigator.of(context).push(MaterialPageRoute(builder: ((_) => const SegundaTela()),
           ),);
-        }), child: Text('Salvar')
+        }), child: const Text('Salvar')
         ),
       ),
     );

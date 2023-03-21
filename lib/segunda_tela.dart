@@ -7,7 +7,7 @@ class SegundaTela extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('Lista de Tarefa')),
+        title: const Center(child: Text('Lista de Tarefa')),
       ),
       body: ListView(
         padding: const EdgeInsets.all(50),
